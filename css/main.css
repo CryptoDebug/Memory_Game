@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(#454545, #000000);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.tiles {
+    margin: 48px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 15px;
+}
+
+.tile {
+    height: 100px;
+    background: white;
+    border: 5px solid #888888;
+    cursor: pointer;
+}

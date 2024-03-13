@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Game</title>
     <link rel="stylesheet" href="/css/main.css">
-    <script src="/js/main.js"> defer</script>
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
     <div class="tiles">
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
-        <div class="tile"></div>
+        <!-- Les cartes seront ajoutées ici par JavaScript -->
+    </div>
+
+    <!-- Balises pour afficher le nombre de tentatives et de paires trouvées -->
+    <span class="counter">
+        Tentatives : <span id="attempts">0</span>
+    </span>
+    <span class="counter">
+        Paires trouvées : <span id="pairsFound">0</span>
+    </span>
+
+    <!-- Overlay pour afficher le message de victoire -->
+    <div id="overlay" class="overlay">
+        <div class="message">
+            Félicitations ! Vous avez trouvé toutes les paires !
+        </div>
     </div>
 </body>
 </html>
